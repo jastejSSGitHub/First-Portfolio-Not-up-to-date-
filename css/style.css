@@ -590,6 +590,16 @@ li.tg-rss a {background: #ff6600;}
 	width: 75%;
 	overflow: hidden;
 }
+
+.row table{
+	margin-bottom: 10rem;
+}
+
+.color-palette h1{
+  margin: 0;
+  font-size:3.5rem;
+}
+
 .tg-stars span:after {color: #fac917;}
 .row.no-gutters {
 	margin-right: 0;
@@ -1364,6 +1374,44 @@ color: yellow;
 	line-height: 42px;
 	text-transform: capitalize;
 }
+.myContentbox{
+	margin-bottom: 10px;
+}
+.myProfileContent h2{
+	color: #fff;
+	float: left;
+	width: 330px;
+	font-size: 42px;
+	font-weight: bold;
+	line-height: 42px;
+	text-transform: capitalize;
+}
+
+.myProfileContent .tg-description p {
+	margin: 0;
+	color: #fff;
+	font-size: 18px;
+	line-height: 45px;
+}
+
+#contactUs .myProfileContent  ul li a {
+	margin: 0;
+	color: #fff;
+	font-size: 18px;
+	line-height: 45px;
+}
+
+#whiteText ul li a{
+	color: white;
+	margin: 0;
+	color: #fff;
+	font-size: 18px;
+	line-height: 45px;
+	font-style: normal;
+	text-transform: uppercase;
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
 .tg-profilecontent .tg-description {
 	width: auto;
 	float: none;
@@ -1487,7 +1535,12 @@ body.tg-homev5 {
 	height: auto;
 	display: block;
 }
-
+ #marginModified  {
+	 margin-top: 280px;
+ }
+ #marginModified2  {
+	 margin-top: 280px;
+ }
 
 .tg-portfolioholder {
 	width: 100%;
@@ -1827,6 +1880,10 @@ body.tg-homev5 {
  color:#6e1c14;
 }
 
+#mainHeadingCitations img{
+	margin-top: 0;
+}
+
 
 
 #pauseCaption h1{
@@ -2084,6 +2141,10 @@ body.tg-homev5 {
 /* =============================================
 			Contact Us Style
 ============================================= */
+
+#contactUs{
+	padding-top: 0px;
+}
 .tg-contactus {
 	width: 100%;
 	float: left;
@@ -2682,6 +2743,9 @@ body.tg-homev5.tg-themechange .tg-navigation ul li .onoffswitch-switch{backgroun
 	color: #fff;
 	background: #000;
 }
+
+.myProfileContent .tg-description p strong{color: white; padding: 10px;}
+
 .tg-addnavs ul li a.tg-btnscrolltop:hover i{color: #fff;}
 .tg-homev5 .tg-addnavs ul li a.tg-btnscrolltop i{color: #fff;}
 .nav-arrows{display: none;}
