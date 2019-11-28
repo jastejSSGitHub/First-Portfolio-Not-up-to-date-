@@ -28,6 +28,10 @@ body {
 	background: #fff;
 	font: 400 14px/23px 'Poppins', Arial, Helvetica, sans-serif;
 }
+
+#coral{
+	background-color: #FFE8F9;
+}
 body h1,
 body h2,
 body h3,
@@ -1302,6 +1306,13 @@ color: yellow;
 	font-size: 18px;
 	line-height: 18px;
 }
+
+.list-group-item{
+	background-color:  #FFE8F9;
+	font-size: 18px;
+	line-height: 38px;
+}
+
 .tg-homeslidervfour .tg-slidercontent h1 {
 	color: white;
 	width: 100%;
@@ -1465,6 +1476,8 @@ body.tg-homev5 {
 	height: auto;
 	display: block;
 }
+
+
 .tg-portfolioholder {
 	width: 100%;
 	float: left;
@@ -1777,6 +1790,18 @@ body.tg-homev5 {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
+ #mainHeading h1{
+	color: #FFE800;
+}
+
+#pauseCaption h1{
+	color: black;
+	font-size: 3rem;
+	text-decoration-line: overline;
+
+}
+
 .tg-detailimg {
 	margin: 0;
 	width: 100%;
@@ -1786,11 +1811,12 @@ body.tg-homev5 {
 	width: 100%;
 	height: auto;
 	display: block;
+	margin-top: 3rem;
 }
 .tg-detailimg figcaption {
 	width: 100%;
 	float: left;
-	bottom: -25px;
+	bottom: 0;
 	text-align: center;
 	position: absolute;
 }
@@ -1799,7 +1825,10 @@ body.tg-homev5 {
 	font-size: 80px;
 	font-weight: 700;
 	line-height: 60px;
+
 }
+
+
 .tg-detailinfo {
 	width: 100%;
 	float: left;
@@ -1848,14 +1877,23 @@ body.tg-homev5 {
 }
 .tg-descriptionholder {
 	overflow: hidden;
-	padding: 80px 260px 0 85px;
+	padding: 5rem 260px 0 85px;
 }
 .tg-descriptionholder .tg-description p {
 	color: #333;
 	font-size: 18px;
-	margin: 0 0 40px;
+	margin: 0px 0 40px;
 	line-height: 38px;
 }
+
+#lessMarginDescription{
+	padding: 5rem 10rem 0 85px;
+}
+
+#lessMarginPhoto img{
+	padding: 5rem 100rem 0 85px;
+}
+
 .tg-tittle {
 	width: 100%;
 	float: left;

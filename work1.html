@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="css/transitions.css">
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-<body>
+<body id="coral">
 
 	<!--************************************
 			Wrapper Start
@@ -68,66 +68,106 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 							<div class="tg-detailholder">
-								<figure class="tg-detailimg">
-									<img src="images/work-detail-1/work1.PNG" alt="Detail Image">
+								<figure id="mainHeading" class="tg-detailimg">
+									<img src="images/work-detail-1/run.gif" alt="Detail Image">
 									<figcaption><h1>The War</h1></figcaption>
 								</figure>
 								<ul class="tg-detailinfo">
-									<li><span>Date</span><p>May, 2017</p></li>
-									<li><span>Location</span><p>Vancouver,British Columbia</p></li>
-									<li><span>Services</span><p><em>Concept</em><em>Game Design</em><em>Development</em><em>Content</em></p></li>
+									<li><span>Project Type</span><p>2D Platformer game</p></li>
+									<li><span>Coding Software</span><p>Processing</p></li>
+									<li><span>Programming Languages</span><p><em>Java</em></p></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="tg-workdetailcontent">
-					<figure class="tg-detailimg tg-simpleimghover at-projectonecolor">
+					<figure id="pauseCaption" class="tg-detailimg tg-simpleimghover at-projectonecolor">
 						<div class="tg-detailimg img-responsive">
-							<img src="images/work-detail-1/endgame.jpg" alt="Detail Image">
+							<img src="images/work-detail-1/endgame.jpg" alt="Poster Image of gameplay pause">
 							<span></span>
+							<figcaption><h1>pause menu</h1></figcaption>
 						</div>
 					</figure>
 					<div class="tg-descriptionholder">
 						<div class="tg-description">
-							<p>The Game is a 2D Platformer, with a focus on providing Fun through Fantasy and Discovery, and has combination of Challenge. There are 2 levels,
-								complete all 2 levels to complete the game.This game is inspired from my favorite game God of War and has a similar feel to it ,, with menus and
-								gamestates isnpired from God of War. You have to collect coins through out the game to receive a highscore of coins . Our character is a gladiator ,
-								 who has to fight through the warrior minions (basic enemies) and has to complete level 1 and fight the final evil Titan(boss) to save his city.</p>
+							<div class="tg-tittle">
+								<h2>Overview</h2>
+							</div>
+							<p>This game was my first attempt at learning to build 2D platformer games, which I had been obsessed with since my childhood addiction with Nintendo old
+								school games. Being an avid video game player, I based this game on the greek mythology inspired by the extremely famous "God of War" game on the playstation
+								 platform,which was my all time favourite game. This 2D platformer was about a greek hero named "Kronos" who defends his city against the creatures summoned from the hell beneath his city.
+								 <br>		Learning game design became extremely useful after I learnt how to implement a combination of puzzle solving, collecting coins and health jumping on complex
+								 shaped and sized bocks and defeating villain bosses. Read further for more details on game design and creation.The whole movement of the player with keys was functioned by trigonometric
+							 		functions throughout the code which made the running style and dynamics realistic with proper movement of arms and legs while running instead of a static player image. </p>
 
-						</div>
-						<div class="tg-tittle">
-							<h2>Challenge</h2>
-						</div>
-						<div class="tg-description">
-							<p>All Resources were created entirely on my own from the very beginning, except the background image of the burnt city I used while starting the game
-								 and pausing the game., which I edited by making the main big face of my character on my own in illustrator and just merging the background burnt city
-								  image in the back.For the movement of the player , (up,down ,left and right) , the main challenge was to animate the player to make it seem like he's live and moving.</p>
 						</div>
 						<ul class="tg-projectinfo">
 							<li>
-								<h3>Objectives</h3>
-								<div class="tg-description">
-									<p>The game has a total of 2 levels. Level 11 is the basic easy level where the player gets a grip of the game . and the second level gets harder with more
-										 warrior minions and at the final, meets the Big Titan enemy. In level 1 , there are just coins that you can collect and lead to level 2 after crossing the
-										  final castle (a specific x value), and in level 2 there are speed pickups (blue fireballs) clearly displaying how to run and in which direction to jump and
-											 run, leading to the boss enemy where you have to evade him and cross the final line to complete the game.. </p>
-								</div>
-							</li>
-							<li>
-								<h3>Solution</h3>
-								<div class="tg-description">
-									<p>Used illustrator to render the images from sketch for the player in different directions. Used keyframes to move multiple images rendered in AI to make
-									</p>
-								</div>
+								<h3>Features</h3>
+								<ul class="list-group list-group-flush">
+									<center>
+									<li class="list-group-item">Platform running</li>
+									<li class="list-group-item">Collecting coins-rewards</li>
+									<li class="list-group-item">Beating hell creatures</li>
+									<li class="list-group-item">Speed Boost ups</li>
+									<li class="list-group-item">Puzzle Solving</li>
+									<li class="list-group-item">Be an Awesome Hero!</li>
+								</ul>
 							</li>
 						</ul>
+					</div>
+				</div>
+
+				<div class="tg-workdetailcontent">
+					<div id="lessMarginDescription" class="tg-descriptionholder">
+						<div class="tg-description">
+							<div class="tg-tittle">
+								<h2>Process Analysis</h2>
+							</div>
+							<p>This entire environment was build in the Processing IDE, a super powerful tool for <strong>Java programming</strong> and getting animation based
+								results using mathematical functions and equations including trigonometry. I started by building a layout of the whole game and different
+								level designs by planning the cordinates of all the blocks you see in the gameplay.<br><br>
+								There are <strong>two levels</strong> in the game, with increased difficulties and we as the hero play the game by beating and escaping the creatures from hell in our way.
+					 		  The second planning that went in the project was the unique placement of coins throughout the level design on the blocks with intelligently placed cordinatesto challenge the user.
+					 		</p>
+							 <figure id="pauseCaption" class="tg-detailimg tg-simpleimghover at-projectonecolor">
+								<div class="tg-detailimg img-responsive tg-themeimghover">
+									<img src="images/work-detail-1/processRun.jpg" alt="Poster Image of gameplay pause">
+									<span></span>
+									<figcaption><h1>pause menu</h1></figcaption>
+								</div>
+							</figure>
+						</div>
+						<div class="tg-description">
+							<ul class="tg-projectinfo">
+								<li>
+									<h3>Basic Setup</h3>
+								 <p>This entire environment was build in the Processing IDE, a super powerful tool for <strong>Java programming</strong> and getting animation based
+									 results using mathematical functions and equations including trigonometry. I started by building a layout of the whole game and different
+									 level designs by planning the cordinates of all the <strong>blocks</strong> you see in the gameplay.<br><br>
+									 There are <strong>two levels</strong> in the game, with increased difficulties and we as the hero play the game by beating and escaping the creatures from hell in our way.
+									 The second planning that went in the project was the unique placement of <strong>coins</strong> throughout the level design on the blocks with intelligently placed cordinatesto challenge the user.
+								 </p>
+								</li>
+
+								<li>
+									<h3>Basic Setup</h3>
+								 <p>This entire environment was build in the Processing IDE, a super powerful tool for <strong>Java programming</strong> and getting animation based
+									 results using mathematical functions and equations including trigonometry. I started by building a layout of the whole game and different
+									 level designs by planning the cordinates of all the <strong>blocks</strong> you see in the gameplay.<br><br>
+									 There are <strong>two levels</strong> in the game, with increased difficulties and we as the hero play the game by beating and escaping the creatures from hell in our way.
+									 The second planning that went in the project was the unique placement of <strong>coins</strong> throughout the level design on the blocks with intelligently placed cordinatesto challenge the user.
+								 </p>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="tg-workdetailcontent">
 					<figure class="tg-detailimg tg-simpleimghover at-projectfivecolor">
 						<div class="tg-themeimghover">
-							<img src="images/work-detail-1/3side.gif" alt="Detail Image">
+							<img src="images/work-detail-1/gameplay.gif" alt="Detail Image">
 							<span></span>
 						</div>
 					</figure>
