@@ -32,6 +32,10 @@ body {
 #coral{
 	background-color: #FFE8F9;
 }
+
+#work2colorBackground{
+	background-color: white;
+}
 body h1,
 body h2,
 body h3,
@@ -1313,6 +1317,13 @@ color: yellow;
 	line-height: 38px;
 }
 
+#orangeBootstrap .list-group-item{
+		background-color:  #FFEDAF;
+		font-size: 18px;
+		line-height: 38px;
+
+}
+
 .tg-homeslidervfour .tg-slidercontent h1 {
 	color: white;
 	width: 100%;
@@ -1791,6 +1802,14 @@ body.tg-homev5 {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
+#lessMarginTop {padding: 0px 0 12rem 0;}
+.tg-detailholder {
+	max-width: 890px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
 .tg-detailholder .tg-themeimghover img {
  margin-left: 20px;
  padding-right: 150px;
@@ -1803,6 +1822,12 @@ body.tg-homev5 {
  #mainHeading h1{
 	color: #FFE800;
 }
+
+#mainHeadingApp h1{
+ color:#6e1c14;
+}
+
+
 
 #pauseCaption h1{
 	color: black;
@@ -1885,6 +1910,17 @@ body.tg-homev5 {
 .tg-workdetailcontent .tg-detailimg {
 	width: auto;
 }
+
+.tg-workdetailcontent2 {
+	width: 100%;
+	float: left;
+	margin-left: 0;
+
+}
+.tg-workdetailcontent2 .tg-detailimg {
+	width: auto;
+}
+
 .tg-descriptionholder {
 	overflow: hidden;
 	padding: 5rem 260px 0 85px;
@@ -2572,8 +2608,8 @@ body.tg-homev5 .tg-navigation ul li .onoffswitch-switch {background: #fff;}
 
 
 .at-projectonecolor .tg-themeimghover > span{background: #edb7cc;}
-.at-projecttwocolor .tg-themeimghover > span{background: #ff0000;}
-.at-projectthreecolor .tg-themeimghover > span{background: #fccc05;}
+.at-projecttwocolor .tg-themeimghover > span{background: #FFC400;}
+.at-projectthreecolor .tg-themeimghover > span{background: #FFBC66;}
 .at-projectfourcolor .tg-themeimghover > span{background: #4e7aff;}
 .at-projectfivecolor .tg-themeimghover > span{background: #cfa682;}
 .at-projectsixcolor .tg-themeimghover > span{background: #ef631f;}
