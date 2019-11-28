@@ -1782,13 +1782,22 @@ body.tg-homev5 {
 .tg-workdetail {
 	width: 100%;
 	float: left;
+	padding-right: 16rem;
 }
-.tg-workdetailvone {padding: 188px 0 0;}
+.tg-workdetailvone {padding: 188px 12rem 0;}
 .tg-detailholder {
-	max-width: 790px;
+	max-width: 890px;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
+}
+.tg-detailholder .tg-themeimghover img {
+ margin-left: 20px;
+ padding-right: 150px;
+}
+
+#sketches .tg-themeimghover img {
+ padding-right: 300px;
 }
 
  #mainHeading h1{
@@ -1871,6 +1880,7 @@ body.tg-homev5 {
 .tg-workdetailcontent {
 	width: 100%;
 	float: left;
+
 }
 .tg-workdetailcontent .tg-detailimg {
 	width: auto;
